@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Natswa Aulia Chorunisa</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            display: flex;
+            background: linear-gradient(135deg, #ff90b5, #fad7f2);
+        }
+
+        .sidebar {
+            width: 250px;
+            background: #964080ad;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            margin-bottom: 5px;
+        }
+
+        .sidebar h2 {
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+        }
+
+        .sidebar ul li {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidebar ul li.active {
+            background: #A06CD5;
+            border-radius: 20px;
+        }
+
+        .content {
+            margin: auto;
+            padding: 40px;
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .hero-section, .about-section, .skills-section {
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .hero-section img, .about-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #FF8C94;
+            margin-bottom: 20px;
+        }
+
+        .hero-section h1, .about-section h1, .skills-section h1 {
+            font-weight: 600;
+            color: #4A4A4A;
+        }
+
+        .hero-section p, .about-section p, .skills-section p {
+            color: #555;
+        }
+
+        .about-section .info {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .about-section .info p {
+            margin: 5px 0;
+        }
+
+        .bar {
+            background: #ddd;
+            border-radius: 10px;
+            height: 20px;
+            margin-bottom: 10px;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .bar .progress {
+            background: #FF8C94;
+            height: 100%;
+        }
+
+        .skill-label {
+            position: absolute;
+            left: 10px;
+            top: 0;
+            line-height: 20px;
+            font-weight: bold;
+        }
+
+        
+        .hero-buttons {
+            margin-top: 20px;
+        }
+
+        .hero-buttons a {
+            background: #FF8C94;
+            color: white;
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 25px;
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        .hero-buttons a:hover {
+            background: #FF5F6D;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icons img {
+            width: 50px; 
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid #FF8C94; 
+        }
+
+        .skill-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .skill-box {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 45%;
+            text-align: left;
+        }
+        
+        .contact-section .contact-box {
+            background: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .contact-section .contact-box p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="asset/image/profil3.jpg" alt="Foto Profil">
+        <h2>Natswa Aulia</h2>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section class="hero-section" id="home">
+            <img src="asset/image/profil1.jpg" alt="Foto Profil">
+            <h1>Hello, I'm Natswa Aulia Choirunisa</h1>
+            <p>Information System Student</p>
+            <p>Saya adalah seorang mahasiswa yang aktif di berbagai kegiatan organisasi dan memiliki minat kuat dalam bidang Business Analysis dan UI/UX Design.</p>
+            <div class="hero-buttons">
+                <a href="#about">ABOUT ME</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="social-icons" style="display: flex; justify-content: center;">
+                <img src="asset/image/instagram.jpg" alt="Instagram" >
+                <img src="asset/image/yb.jpg" alt="YouTube" >
+                <img src="asset/image/link.jpg" alt="LinkedIn" >
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <h1>About Me</h1>
+            <div style="display: flex; align-items: center;">
+                <div class="info" style="flex: 1; margin-right: 20px;">
+                    <p><strong>Nama:</strong> Natswa Aulia Choirunisa</p>
+                    <p><strong>Tanggal Lahir:</strong> 28 November 2004</p>
+                    <p><strong>Jenis Kelamin:</strong> Perempuan</p>
+                    <p><strong>Agama:</strong> Islam</p>
+                    <p><strong>E-Mail:</strong> nnyndghdk@gmail.com</p>
+                </div>
+                <img src="asset/image/profil2.jpg" alt="Foto Profil" style="width: 190px; height: 150px; border-radius: 10px; border: 3px solid #e47d84; margin-left: -200px;">
+            </div>
+            <p>
+                Saya percaya bahwa teknologi yang baik bukan hanya soal kode, tetapi juga bagaimana solusi tersebut bisa memberikan pengalaman terbaik bagi pengguna. 
+                Dengan latar belakang saya di bidang Sistem Informasi, saya terbiasa menganalisis kebutuhan pengguna, merancang solusi yang efektif, 
+                dan menghadirkan desain yang intuitif.
+            </p>
+        </section>
+
+        <section class="skills-section" id="skills">
+            <h1>Skills</h1>
+            <p><strong>Technical Skill:</strong></p>
+            <div class="bar"><span class="skill-label">Business Analysis</span><div class="progress" style="width: 90%;"></div></div>
+            <div class="bar"><span class="skill-label">UI/UX Design</span><div class="progress" style="width: 70%;"></div></div>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <p><strong>Soft Skill:</strong></p>
+                    <ul>
+                        <li>Komunikasi yang efektif</li>
+                        <li>Kemampuan kerja tim</li>
+                        <li>Problem Solving</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <p><strong>Other Skill:</strong></p>
+                    <ul>
+                        <li>Manajemen proyek</li>
+                        <li>Dokumentasi sistem</li>
+                        <li>Penyusunan laporan</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="contact-box">
+                <h1>Contact</h1>
+                <p><strong>Email:</strong> nnyndghdk@gmail.com</p>
+                <p><strong>Telepon:</strong> +62 812-3456-7890</p>
+                <p><strong>Instagram:</strong> <a href="https://instagram.com/natswaaulia" target="_blank">@natswaaulia</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/natswaaulia" target="_blank">linkedin.com/in/natswaaulia</a></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
